@@ -14,7 +14,7 @@
 | Loại sản phẩm | Web quản lý |
 | Ý tưởng gốc | 5.1 · CRM quản lý khách hàng (`ZDOCS/02-KE-HOACH/DANH-SACH-Y-TUONG.md`) |
 | Người phụ trách | |
-| Trạng thái | Mới tạo từ khuôn mẫu |
+| Trạng thái | Có tài liệu nghiệp vụ (SRS, use case, kịch bản demo, kịch bản kiểm thử), chưa code |
 
 ## 2. Vấn đề của khách hàng
 
@@ -44,11 +44,14 @@
 | Area | Chức năng | Màn hình (route FE dự kiến) | Ưu tiên |
 | :--- | :--- | :--- | :---: |
 | `System` | Đăng nhập, tài khoản, vai trò, cài đặt | Có sẵn | — |
+| `Crm` | Tổng quan kinh doanh | `/dashboard` | P1 |
 | `Crm` | Lead | `/leads` | P1 |
 | `Crm` | Khách hàng, người liên hệ | `/customers` | P1 |
+| `Crm` | Hồ sơ khách hàng | `/customers/[id]` | P1 |
 | `Crm` | Pipeline cơ hội (Kanban) | `/pipeline` | P1 |
 | `Crm` | Hoạt động chăm sóc, nhắc việc | `/activities` | P1 |
 | `Crm` | Báo giá | `/quotes` | P2 |
+| `Crm` | Soạn, in báo giá | `/quotes/[id]` | P2 |
 | `Crm` | Nhập lead từ Excel | `/leads/import` | P2 |
 | `Crm` | Báo cáo doanh số, chuyển đổi | `/reports` | P1 |
 
